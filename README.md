@@ -1,1 +1,1 @@
-# Prediccion-de-Stroke
+# Predicción-de-Stroke
