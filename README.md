@@ -49,3 +49,7 @@ Algo a resaltar es que la métrica que daba más alto en todos los casos fue la 
 En cuanto a los tiempos de ejecución es muy importante destacar que el método más demorado fue el de SVM, tardándose aproximandamente 1 hora.
 
 Otro aspecto importante que vale la pena mencionar es que a lo largo del proyecto se utilizó Gridserch cv, evaluando cada método con dos métricas f1 y AUC-ROC, por lo que es importante que se especifique el "refit" dentro de los parámetros del Gridserch-cv, pues en caso contrario saldrá error.
+
+# Enlace del video explicativo.
+
+https://youtu.be/gYzbJUZCqzI
