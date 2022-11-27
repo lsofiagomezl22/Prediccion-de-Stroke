@@ -25,7 +25,11 @@ Dado lo anterior se procedio a realizar el procesamiento de los datos, que en es
 * Regresión logística
 * KNN (K vecinos más cercanos)
 
-A continucaión se muestran los resultados de los métodos utilizados, a partir de dos métricas, f1 y AUC_ROC
+A continucaión se muestran los resultados de los métodos utilizados, a partir de dos métricas, f1 y AUC_ROC:
+
+# Para SVM 
+
+<img width="704" alt="image" src="https://user-images.githubusercontent.com/118940749/204142068-db88211a-04eb-45a3-9b28-d92195ec93bc.png">
 
 # Para regresión logística:
 
@@ -41,4 +45,5 @@ A partir de las diferentes métricas y modelos de predicción utilizados, es pos
 
 Algo a resaltar es que la métrica que daba más alto en todos los casos fue la de AUC_ROC. Por otra parte el reultada más bajo fue el de 
 
+En cuanto a los tiempos de ejecución es muy importante destacar que el método más demorado fue el de SVM, tardándose aproximandamente 1 hora.
 
