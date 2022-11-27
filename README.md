@@ -25,8 +25,20 @@ Dado lo anterior se procedio a realizar el procesamiento de los datos, que en es
 * Regresión logística
 * KNN (K vecinos más cercanos)
 
+A continucaión se muestran los resultados de los métodos utilizados, a partir de dos métricas, f1 y AUC_ROC
 
+# Para regresión logística:
 
+<img width="713" alt="image" src="https://user-images.githubusercontent.com/118940749/204118943-9a5df164-484f-4e3d-863d-fd35d97b66a6.png">
 
+# Para KNN:
+
+<img width="636" alt="image" src="https://user-images.githubusercontent.com/118940749/204118954-5fae1706-4e8d-4db1-b610-3884a0071f65.png">
+<img width="634" alt="image" src="https://user-images.githubusercontent.com/118940749/204118967-3e98df9d-0681-4537-b3b0-340d6be0aade.png">
+
+# Conclusiones
+A partir de las diferentes métricas y modelos de predicción utilizados, es posible evidenvciar que el mejor mètodo para predecir si un pacient epresenta Stroke es el de regresión logística con una métrica de AUC_ROC.
+
+Algo a resaltar es que la métrica que daba más alto en todos los casos fue la de AUC_ROC. Por otra parte el reultada más bajo fue el de 
 
 
