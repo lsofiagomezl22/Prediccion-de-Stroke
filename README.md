@@ -19,13 +19,13 @@ En dicho Dataset aparecen las siguientes características:
 11) "smoking_status": "formerly smoked", "never smoked", "smokes" or "Unknown"
 12) "stroke": 1 if the patient had a stroke or 0 if not
 
-Dado lo anterior se procedio a realizar el procesamiento de los datos, que en este caso incluia la limpieza de los mismos y la creación de un nuevo archivo con los nuevos datos. Así mismo se normalizó y se realizaron los siguientes modelos de predicción con su respectiva validación.
+Dado lo anterior se procedió a realizar el procesamiento de los datos, que en este caso incluía la limpieza de los mismos y la creación de un nuevo archivo con los nuevos datos. Así mismo se normalizó y se realizaron los siguientes modelos de predicción con su respectiva validación.
 
-* SVM (Maquinas de soporte vectorial)
+* SVM (Máquinas de soporte vectorial)
 * Regresión logística
 * KNN (K vecinos más cercanos)
 
-A continucaión se muestran los resultados de los métodos utilizados, a partir de dos métricas, f1 y AUC_ROC:
+A continuación se muestran los resultados de los métodos utilizados, a partir de dos métricas, f1 y AUC_ROC:
 
 # Para SVM 
 
@@ -41,9 +41,11 @@ A continucaión se muestran los resultados de los métodos utilizados, a partir 
 <img width="634" alt="image" src="https://user-images.githubusercontent.com/118940749/204118967-3e98df9d-0681-4537-b3b0-340d6be0aade.png">
 
 # Conclusiones
-A partir de las diferentes métricas y modelos de predicción utilizados, es posible evidenvciar que el mejor mètodo para predecir si un pacient epresenta Stroke es el de regresión logística con una métrica de AUC_ROC.
+A partir de las diferentes métricas y modelos de predicción utilizados, es posible evidenciar que el mejor método para predecir si un paciente presenta Stroke es el de regresión logística con una métrica de AUC_ROC.
 
-Algo a resaltar es que la métrica que daba más alto en todos los casos fue la de AUC_ROC. Por otra parte el reultada más bajo fue el de 
+Algo a resaltar es que la métrica que daba más alto en todos los casos fue la de AUC_ROC. Por otra parte el reultada más bajo fue el obtenido con máquinas de soporte vectorial
+
 
 En cuanto a los tiempos de ejecución es muy importante destacar que el método más demorado fue el de SVM, tardándose aproximandamente 1 hora.
 
+Otro aspecto importante que vale la pena mencionar es que a lo largo del proyecto se utilizó Gridserch cv, evaluando cada método con dos métricas f1 y AUC-ROC, por lo que es importante que se especifique el "refit" dentro de los parámetros del Gridserch-cv, pues en caso contrario saldrá error.
